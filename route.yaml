@@ -1,0 +1,14 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: svc
+  namespace: argocd-app
+spec:
+  host: argo-test.apps.ocp4.ocp-birg.vsoft.local
+  to:
+    kind: Service
+    name: svc
+    weight: 100
+  port:
+    targetPort: 3000
+  wildcardPolicy: None
