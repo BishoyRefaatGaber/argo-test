@@ -4,7 +4,7 @@ metadata:
   name: svc
   namespace: argocd-app
 spec:
-  host: argo-test.apps.ocp4.ocp-birg.vsoft.local
+  host: argo-test.apps.ocp-sno4.vsoft.local
   to:
     kind: Service
     name: svc
