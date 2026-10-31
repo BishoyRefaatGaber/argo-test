@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod
-  namespace: argocd-app  
+  name: pod 
   labels:
     app: juice-shop
 spec:
