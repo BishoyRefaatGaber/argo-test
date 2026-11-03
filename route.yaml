@@ -3,7 +3,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: svc
 spec:
-  host: argo-test.apps.ocp-sno4.vsoft.local
+  #host: argo-test.apps.ocp-sno4.vsoft.local
   to:
     kind: Service
     name: svc
